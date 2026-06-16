@@ -1,0 +1,18 @@
+# Виртуальное окружение
+.venv/
+venv/
+env/
+
+# IDE
+.idea/
+.vscode/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+
+# Большой полноэкранный скриншот (нужен только для пересоздания эталона).
+# Сам эталон images/accept_button.png — в репозитории.
+images/image_348.png
