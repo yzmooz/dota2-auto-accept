@@ -19,7 +19,10 @@ Valve не отдаёт координаты кнопки наружу (Source 2
     python accept_dota.py --test --click   # то же, но реально кликнуть (для проверки)
 
 Остановка: Ctrl+C в консоли, либо увести курсор в левый верхний угол экрана
-(сработает failsafe pyautogui).import sys
+(сработает failsafe pyautogui).
+"""
+
+import sys
 import time
 import ctypes
 from ctypes import wintypes
@@ -33,6 +36,7 @@ import win32con
 import win32gui
 import win32process
 
+#
 # ── Настройки ────────────────────────────────────────────────────────────────
 TEMPLATE_PATH   = "images/accept_button.png"  # эталон кнопки «ПРИНЯТЬ»
 MATCH_THRESHOLD = 0.75   # порог уверенности совпадения (0..1). Выше — строже.
