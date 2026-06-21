@@ -1,7 +1,9 @@
 # Виртуальное окружение
 .venv/
+.venv-local/
 venv/
 env/
+.superpowers/
 
 # IDE
 .idea/
@@ -9,9 +11,16 @@ env/
 
 # Python
 __pycache__/
+.pytest_cache/
 *.pyc
 *.pyo
 *.egg-info/
+
+# PyInstaller (сборка .exe — артефакты не храним в репозитории)
+build/
+dist/
+*.spec
+!dota_auto_accept.spec
 
 # Большой полноэкранный скриншот (нужен только для пересоздания эталона).
 # Сам эталон images/accept_button.png — в репозитории.

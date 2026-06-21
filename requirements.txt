@@ -3,3 +3,7 @@ numpy
 mss
 pyautogui
 pywin32 ; platform_system == "Windows"
+customtkinter
+Pillow
+pystray
+pyinstaller
